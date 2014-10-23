@@ -1,0 +1,31 @@
+{
+  "name": "harvestd-client",
+  "version": "0.0.1",
+  "description": "NodeJS client library for the harvestd event collector",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seanmcgary/node-harvestd.git"
+  },
+  "keywords": [
+    "harvestd",
+    "events",
+    "tracking",
+    "analytics",
+    "client"
+  ],
+  "author": "Sean McGary <sean@seanmcgary.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seanmcgary/node-harvestd/issues"
+  },
+  "dependencies": {
+    "q": "~1.0.1",
+    "lodash": "~2.4.1",
+    "logwrangler": "~0.1.5",
+    "node-uuid": "~1.4.1"
+  }
+}
