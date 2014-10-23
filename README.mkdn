@@ -1,0 +1,30 @@
+## Install
+
+```
+
+npm install --save harvestd-client
+
+```
+
+## Use
+
+```javascript
+var harvestd = require('harvestd-client');
+
+var client = new harvestd.Client({
+	host: 'your-server-hostname.com',
+	token: '<your api token>'
+	secure: true, 						// optional, defaults to false
+	port: 80 							// optional, defaults to 80
+});
+
+client.preTrack(function(event, data, cb){
+	// do stuff here
+	
+	cb(event, data);
+});
+
+
+client.trackEvent('test-event', { test: 'foo' });
+
+```
