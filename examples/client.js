@@ -7,8 +7,8 @@ var client = new harvestd.Client({
 });
 
 client.preTrack(function(event, data, cb){
-	console.log(arguments);
-
+	// do stuff here
+	
 	cb(event, data);
 });
 
