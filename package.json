@@ -1,6 +1,6 @@
 {
   "name": "harvestd-client",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "NodeJS client library for the harvestd event collector",
   "main": "index.js",
   "scripts": {
